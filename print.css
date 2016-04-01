@@ -1,0 +1,257 @@
+/*body*/
+* {
+  background: transparent;
+  color:black;
+  font-size: 10pt;
+  font-family: "Times New Roman", serif;
+  font-weight: lighter;
+}
+
+@page{
+  margin-top: .08in;
+  margin-right: .2in;
+  margin-bottom: .08in;
+  margin-left: .2in;
+}
+
+/*IDs*/
+#other-experience-and-activities{
+  padding-bottom: .2in;
+}
+
+#address{
+    font-size: 8pt;
+    border-bottom: 2pt solid black;
+    padding:0in 0in .02in 0in;
+    text-align:center;
+}
+
+#skills{
+  margin-top: -.07in;
+}
+
+/*regular values*/
+h1, h2 {
+  list-style:none;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+article{
+  margin-top: -.1in;
+}
+
+h1 {
+  color:black;
+  font-family: "Times New Roman", serif;
+  font-size: 18pt;
+  font-weight: bold;
+  letter-spacing: 4pt;
+  padding-top: 0in;
+  padding-bottom: 0in;
+  margin-bottom: .43in;
+}
+
+h2{
+  font-family: "Times New Roman", serif;
+  font-size: 12pt;
+  font-weight: bold;
+  letter-spacing: 2.5pt;
+  margin-top: .2in;
+  color: black;
+  text-align:center;
+}
+
+h3{
+  font-size: 10pt;
+  font-weight: bold;
+  text-align:left;
+  color: black;
+  }
+
+h4{
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: italic;
+  margin-top: -.14in;
+  padding-left: 0in;
+  color: black;
+}
+
+h5{
+  font-size: 10pt;
+  font-weight: normal;
+  float:right;
+  margin-top: -.4in;
+  text-align: center;
+  color: black;
+}
+
+p strong,
+ul li strong {
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: black;
+}
+
+ul li ul li{
+  display:inline-block;
+  text-align:left;
+}
+
+nav{
+  display:none;
+}
+
+section{
+  margin-top: -.1in;
+}
+
+footer{
+  border-top: 2pt solid black;
+  margin-top: -.06in;
+  padding:.08in 0in 0in 0in;
+  font-size: 8pt;
+}
+
+ul li ul li{
+  display: inline-block;
+}
+
+address p{
+  display: inline-block;
+}
+
+footer p{
+    display: inline-block;
+}
+
+/*classes*/
+.caps{
+  text-transform: uppercase;
+}
+
+.italic{
+  font-style: italic;
+  font-weight: normal;
+  margin-top: -.15in;
+}
+
+.linkedin{
+  display: none;
+}
+
+.inline{
+  display:inline-block;
+  text-align:left;
+  margin-left:0in;
+}
+
+.liststyle{
+    padding:0;
+    display: inline-block;
+}
+
+.experiencestyle{
+    list-style-type:square;
+    margin-top: -.15in;
+    margin-left: .3in;
+    padding:0;
+    text-align:center;
+    text-align: left;
+}
+
+.experiencestyle li{
+    text-align:left;
+    padding:0;
+}
+
+.normal{
+  font-style: normal;
+  margin-top: -.5in;
+}
+
+
+.minorshonors{
+  list-style-type: none;
+  margin-top: -.3in;
+  margin-left: .1in;
+}
+
+.courses {
+  list-style-type: none;
+  margin-top: -.3in;
+  margin-left: 1in;
+}
+
+.hide{
+text-align: center;
+margin-top: -.13in;
+}
+
+.skillsup{
+  margin-top: -.23in;
+}
+
+.activitiesup{
+  margin-top: -.32in;
+}
+
+.colon{
+  margin-top: -.14in;
+}
+
+/*content additions*/
+ul li ul li:after{
+  content: ", ";
+}
+
+ul li ul li:last-child:after{
+  content: "";
+}
+
+ul li ul li:nth-child(2):after{
+  content: "";
+}
+
+.colon:after{
+  content: ": ";
+  font-weight: bold;
+}
+
+.comma:after{
+  content: ", ";
+}
+
+
+ul li strong:after{
+  content: ":"
+}
+
+
+address p:after{
+  content: " | ";
+}
+
+address p:last-child:after{
+  content: "";
+}
+
+
+footer p:after{
+    content: " | ";
+}
+
+footer p:last-child:after{
+  content: "";
+}
+
+.inline:after{
+  content: ", "
+}
+
+.inline:last-child:after{
+  content: "";
+}
