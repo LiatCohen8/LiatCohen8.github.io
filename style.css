@@ -1,0 +1,331 @@
+
+/*body*/
+body {
+  font-family: "Avenir Next",sans-serif;
+  font-weight: normal;
+  letter-spacing: 1.2px;
+  color: rgba(53, 53, 53, 1);
+  font-size: 14px;
+}
+
+/*IDS*/
+#wrapper{
+  max-width: 960px;
+  min-width: 320px;
+  margin:0 auto;
+}
+
+#education ul{
+  position:relative;
+  top: -34px;
+}
+
+#horizontal {
+    font-family: "Avenir Next",sans-serif;
+    text-align:center;
+    margin:20px 0px 10px 0px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    max-width:960px;
+    background-color: rgba(0, 169, 176, .8);
+}
+#horizontal li{
+    background-color: rgba(0, 169, 176, .8);
+    border:3px solid;
+    border-color: white;
+    margin:7px 15px 7px 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    display:inline-block;
+}
+
+#address{
+    font-family: "Avenir Next",sans-serif;
+    border-bottom: 2px solid;
+    border-color:rgba(53, 53, 53, 1);
+    border-bottom-style: solid;
+    padding:0px 0px 10px 0px;
+    text-align:center;
+    max-width:960px;
+}
+
+/*regular values*/
+h1, h2 {
+  border:0px solid #ccc;
+  border-width:0;
+  list-style:none;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+h1 {
+  color: rgba(53, 53, 53, 1);
+  font-family: "Playfair Display",serif;
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+h2{
+  font-family: "Playfair Display",serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  margin-top: 20px;
+  color: rgba(53, 53, 53, 1);
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color:rgba(53, 53, 53, 1);
+  padding:15px 0px 15px 0px;
+  text-align:center;
+  max-width:960px;
+}
+
+h3{
+  font-family: "Avenir Next",sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 20px;
+  border:solid;
+  padding:10px 7px 10px 7px;
+  background-color: rgba(0, 169, 176, .8);
+  max-width: 575px;
+  text-align: center;
+  color: white;
+  }
+
+h4{
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: -10px;
+  padding-left: 10px;
+  color: rgba(53, 53, 53, 1);
+}
+
+h5{
+  font-family: "Avenir Next",sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: -94px;
+  border:solid;
+  padding:10px 20px 10px 20px;
+  background-color: rgba(0, 169, 176, .8);
+  float:right;
+  max-width: 220px;
+  text-align: center;
+  color: white;
+}
+
+article{
+  margin-bottom: 30px;
+}
+
+p strong {
+  font-family: "Avenir Next",sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  border:4px solid;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(0, 169, 176, .8);
+  max-width: 150px;
+  text-align: left;
+  color: white;
+  line-height: 40px;
+}
+
+ul li strong{
+  font-family: "Avenir Next", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  border:4px solid;
+  margin-top: 10px;
+  margin-bottom:10px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(0, 169, 176, .8);
+  max-width: 150px;
+  color: white;
+  line-height: 50px;
+}
+
+ul li ul li{
+  display: inline-block;
+}
+
+footer {
+  color: white;
+  text-transform: uppercase;
+  margin:20px 0px 10px 0px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  max-width:960px;
+  background-color: rgba(0, 169, 176, .8);
+}
+
+address p{
+  display: inline-block;
+}
+
+/*classes*/
+.liststyle{
+    padding:0;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.experiencestyle{
+    list-style-type:square;
+    margin:28px;
+    padding: 0px;
+    text-align:left;
+    max-width:700px;
+    line-height: 25px;
+}
+
+.experiencestyle li{
+    text-align:left;
+    margin-top: -5px;
+    padding:5px;
+    font-size: 14px;
+}
+
+.caps{
+  text-transform: uppercase;
+}
+
+.italic{
+  font-style: italic;
+  font-weight: 600;
+}
+
+.normal{
+  font-style: normal;
+  margin-top: -15px;
+}
+
+.skillsup{
+  border-bottom: 2px solid;
+  border-color:rgba(53, 53, 53, 1);
+  border-bottom-style: solid;
+  padding:0px 0px 0px 0px;
+}
+
+.hide {
+  display: none;
+}
+
+.backtotop{
+  float: right;
+  margin-top: 0px;
+  margin-right: 20px;
+  color: white;
+  border:3px solid;
+  border-color: white;
+  padding-top: 13px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  display:inline-block;
+}
+
+.icon{
+  color: white;
+  border:3px solid;
+  border-color: white;
+  padding-top: 6px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  display:inline-block;
+}
+
+.smdate{
+  margin-top: -50px;
+}
+
+.minorshonors{
+  list-style-type: none;
+  margin-top: -40px;
+  margin-left: 45px;
+}
+
+.courses {
+  list-style-type: none;
+  margin-top: -45px;
+  margin-left: 150px;
+  max-width: 600px;
+  line-height: 28px;
+}
+
+.inline{
+  display:inline-block;
+  text-align:left;
+  margin-left: 5px;
+}
+
+/*content additions*/
+address p:after{
+  content: " | ";
+}
+
+address p:nth-child(4):after,
+address p:last-child:after{
+  content: "";
+}
+
+ul li ul li:after{
+  content: ", ";
+}
+
+ul li ul li:last-child:after{
+  content: "";
+}
+
+.inline:after{
+  content: ", "
+}
+
+.inline:last-child:after{
+  content: "";
+}
+
+/*navs*/
+a,
+a:visited
+ {
+    font-size: 14px;
+    color: white;
+}
+
+a:hover {
+  color: rgba(53, 53, 53, 1);
+}
+
+a:active{
+  color:red;
+}
+
+.linkedin a{
+  color: rgba(53, 53, 53, 1);
+}
+
+.linkedin a:hover{
+  color:rgba(0, 169, 176, .8);
+}
+
+.linkedin a:active{
+  color:red;
+}
