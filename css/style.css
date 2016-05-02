@@ -604,6 +604,7 @@ a:active{
   color: black;
   text-align: right;
   font-size: 17px;
+  text-decoration: underline;
 }
 
 .universityprimetime:visited{
