@@ -52,6 +52,29 @@
     font-weight: bolder;
   }
 
+  .return{
+    font-size: 8px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-left: 120px;
+  }
+
+  .return:visited{
+    color: black;
+  }
+
+  .return:hover{
+    color:rgba(249, 204, 224, 1);
+  }
+
+  .return:active{
+    color:rgba(249, 204, 224, 1);
+    font-weight: bolder;
+  }
+
   .contact{
   display:inline-block;
   padding-right: 10px;
