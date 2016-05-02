@@ -1,0 +1,155 @@
+@media (max-width: 320px) {
+
+  .home {
+    background-image: none;
+    font-size: 24px;
+  }
+
+  .home-nav {
+    display: none;
+  }
+
+  .home-header{
+    display: none;
+  }
+
+  main.mobile-only {
+    display: block;
+    font-size: 9px;
+  }
+
+  .mobile-only {
+    display: block;
+    font-size: 9px;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  .logo{
+    border-top: 20px solid;
+    color: black;
+    border-width: 100%;
+    padding: 30px 33px 0px 33px;
+  }
+
+  .linkedin{
+    color: black;
+    text-align: right;
+  }
+
+  .linkedin:visited{
+    color: black;
+  }
+
+  .linkedin:hover{
+    color:rgba(249, 204, 224, 1);
+  }
+
+  .linkedin:active{
+    color:rgba(249, 204, 224, 1);
+    font-weight: bolder;
+  }
+
+  .contact{
+  display:inline-block;
+  padding-right: 10px;
+  text-transform: uppercase;
+  }
+
+  .block{
+    display: block;
+    text-align: left;
+    padding-left: 35px;
+    margin-top: -20px;
+  }
+
+  .mobileicon{
+    font-size: 10px;
+  }
+
+  .messageright{
+  float:left;
+  position:relative;
+   margin-left: 40px;
+   text-align: left;
+  }
+
+  .message{
+    display: block;
+  }
+
+  label{
+    padding-right: 0px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 10px;
+
+  }
+
+  button{
+    font-size: 8px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight:lighter;
+    text-transform: uppercase;
+  }
+
+  button:hover{
+    background-color:rgba(249, 204, 224, 1);
+  }
+
+  button:active{
+    background-color:rgba(249, 204, 224, 1);
+  }
+
+  input{
+    padding-right: 30px;
+  }
+
+  .messageinput{
+    display: block;
+    margin-top: 10px;
+  }
+
+  footer {
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    max-width:100%;
+    background-color: black;
+    width:100%;
+    height:4%;
+    bottom: 0px;
+    position: fixed;
+  }
+
+  h2{
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 8px;
+    font-weight: normal;
+    margin-top: 8px;
+    margin-left: 25px;
+    color: black;
+    border-bottom: 1px solid;
+    border-color:rgba(249, 204, 224, 1);
+    padding:15px 0px 5px 0px;
+    text-align:left;
+    max-width:85%;
+    text-align: center;
+  }
+
+  .hide-mobile{
+    display: none;
+  }
+
+  .thankyou{
+    border-bottom: none;
+    font-size: 18px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight:normal;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+}

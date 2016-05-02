@@ -21,8 +21,8 @@
 
 #address{
     font-size: 8pt;
-    border-bottom: 2pt solid black;
-    padding:0in 0in .02in 0in;
+    border-bottom: 1pt solid black;
+    padding:0in 0in 0in 0in;
     text-align:center;
 }
 
@@ -47,9 +47,8 @@ h1 {
   font-size: 18pt;
   font-weight: bold;
   letter-spacing: 4pt;
-  padding-top: 0in;
-  padding-bottom: 0in;
-  margin-bottom: .43in;
+  padding-top: .13in;
+  padding-bottom: .2in;
 }
 
 h2{
@@ -57,7 +56,7 @@ h2{
   font-size: 12pt;
   font-weight: bold;
   letter-spacing: 2.5pt;
-  margin-top: .2in;
+  margin-top: .17in;
   color: black;
   text-align:center;
 }
@@ -110,9 +109,9 @@ section{
 }
 
 footer{
-  border-top: 2pt solid black;
+  border-top: 1pt solid black;
   margin-top: -.06in;
-  padding:.08in 0in 0in 0in;
+  padding:.08in 0in .02in 0in;
   font-size: 8pt;
 }
 
@@ -188,11 +187,19 @@ footer p{
 
 .hide{
 text-align: center;
-margin-top: -.13in;
+margin-top: -.18in;
+}
+
+.hide-print-only{
+  display: none;
+}
+
+.download{
+  display: none;
 }
 
 .skillsup{
-  margin-top: -.23in;
+  margin-top: -.26in;
 }
 
 .activitiesup{
