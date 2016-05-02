@@ -1,4 +1,5 @@
 
+
 body {
   font-family: "Source Sans Pro",sans-serif;
   font-weight:lighter;
@@ -9,7 +10,7 @@ body {
 
 
 #wrapper{
-  max-width: 90%;
+  max-width: 95%;
   min-width: 320px;
   margin:0 auto;
 }
@@ -169,7 +170,7 @@ main{
 }
 
 #portfolio{
-  margin:0 35px;
+  margin:0 25px;
   width: 100%;
 }
 
@@ -260,13 +261,13 @@ main{
   font-size: 25px;
   font-weight: bold;
   margin-top: 20px;
-  margin-left: 17px;
+  margin-left: 15px;
   color: black;
   border-bottom: 2px solid;
   border-color:rgba(249, 204, 224, 1);
   padding:15px 0px 5px 25px;
   text-align:left;
-  max-width:95%;
+  max-width: 96%;
 }
 
 .aboutphoto{
