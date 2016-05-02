@@ -29,20 +29,20 @@ function postToGoogle() {
     // default, catch-all
     statusCode: {
       0: function() {
-        window.location.replace("../thank-you.html");
+        window.location.replace("thank-you.html");
       },
       200: function() {
-        window.location.replace("../thank-you.html");
+        window.location.replace("thank-you.html");
       }
     }
   });
 }
 
 // identify the submit button
-var send here = document.forms[0].elements.submit;
+var send= document.forms[0].elements.send;
 
 // add an event listener to submit
-submit.addEventListener("click", function() {
+send.addEventListener("click", function() {
   // prevent the page from refreshing
   event.preventDefault();
   // call the postToGoogle() function
