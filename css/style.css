@@ -1,5 +1,4 @@
 
-/*body*/
 body {
   font-family: "Source Sans Pro",sans-serif;
   font-weight:lighter;
@@ -8,7 +7,7 @@ body {
   margin: 0;
 }
 
-/*IDS*/
+
 #wrapper{
   max-width: 90%;
   min-width: 320px;
@@ -30,7 +29,6 @@ body {
   padding-left: 25px;
 }
 
-/*regular values*/
 h1, h2 {
   border:0px solid #ccc;
   border-width:0;
@@ -171,7 +169,6 @@ main{
 }
 
 #portfolio{
-  /*max-width: 1276px;*/
   margin:0 35px;
   width: 100%;
 }
@@ -280,7 +277,6 @@ main{
   margin-top: 20px;
 }
 
-/*classes*/
 .liststyle{
     padding:0;
     display: block;
@@ -542,7 +538,6 @@ button:active{
   content: "- ";
 }
 
-/*content additions*/
 address p:after{
   content: " | ";
 }
@@ -568,7 +563,6 @@ ul li ul li:last-child:after{
   content: "";
 }
 
-/*navs*/
 a,
 a:visited
  {
@@ -713,17 +707,10 @@ margin-top: -20px;
 }
 
 #background {
-    /*width: 100%;
-    height: 100%;*/
     position: relative;
     background-color:rgba(249, 204, 224, .7);
     overflow:auto;
 }
-
-/*.stretch {
-    width:100%;
-    height:100%;
-}*/
 
 .homebutton{
   display:inline-block;
@@ -983,8 +970,6 @@ main.mobile-only {
   font-weight: bolder;
 }
 
-
-
 label {
   display: block;
   font-size: 16px;
@@ -1000,6 +985,9 @@ input[type="submit"] {
   display: block;
 }
 
+input:active{
+  background-color: white;
+}
 
 input {
   border-color: rgba(249, 204, 224, .8);
@@ -1014,8 +1002,8 @@ input {
 .messageright{
   float:left;
   position:relative;
-margin-left: 40px;
-text-align: left;
+  margin-left: 40px;
+  text-align: left;
 }
 
 textarea{

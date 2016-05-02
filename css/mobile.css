@@ -1,5 +1,15 @@
 @media (max-width: 320px) {
 
+  img {
+    width: 80%;
+  }
+
+  #message{
+    height: 40px;
+    width: 160px;
+    margin-top: -1px;
+  }
+
   .home {
     background-image: none;
     font-size: 24px;
@@ -23,14 +33,9 @@
     font-size: 9px;
   }
 
-  img {
-    width: 80%;
-  }
-
   .logo{
     border-top: 20px solid;
     color: black;
-    border-width: 100%;
     padding: 30px 33px 0px 33px;
   }
 
@@ -185,12 +190,6 @@
     border-color: rgba(249, 204, 224, .8);
   }
 
-  #message{
-    height: 40px;
-    width: 160px;
-    margin-top: -1px;
-  }
-
   textarea{
     border:2px solid;
     border-color: rgba(249, 204, 224, .8);
@@ -202,6 +201,11 @@
 
 .left{
   margin-top: -15px;
+}
+
+
+input:active{
+  background-color: white;
 }
 
 }
