@@ -59,7 +59,7 @@ h2{
   border-color:rgba(249, 204, 224, 1);
   padding:15px 0px 5px 25px;
   text-align:left;
-  width: 100%;
+  width: 95%;
 }
 
 h3{
@@ -269,7 +269,7 @@ main{
   border-color:rgba(249, 204, 224, 1);
   padding:15px 0px 5px 25px;
   text-align:left;
-  max-width:100%;
+  max-width:95%;
 }
 
 .aboutphoto{
@@ -490,6 +490,15 @@ text-transform: uppercase;
   text-align: center;
   position: static;
 }
+button{
+  font-size: 12px;
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight:lighter;
+  text-transform: uppercase;
+  border-color: rgba(249, 204, 224, 1);
+  background-color:white;
+  margin-bottom:25px;
+}
 
 button:hover{
   background-color:rgba(249, 204, 224, 1);
@@ -499,14 +508,7 @@ button:active{
   background-color:rgba(249, 204, 224, 1);
 }
 
-input{
-  padding-right: 30px;
-}
 
-.messageinput{
-  display: block;
-  margin-top: 10px;
-}
 .topnav{
   display:inline-block;
   text-align:center;
@@ -756,19 +758,6 @@ margin-top: -20px;
   margin-left: 25px;
 }
 
-.messageright{
-  float:left;
-  position:relative;
-margin-left: 40px;
-text-align: left;
-}
-
-label{
-  padding-right: 6px;
-  text-transform: uppercase;
-  font-weight: normal;
-}
-
 #resumeright{
   float: right;
   max-width: 800px;
@@ -992,4 +981,44 @@ main.mobile-only {
 .return:active{
   color:rgba(249, 204, 224, 1);
   font-weight: bolder;
+}
+
+
+
+label {
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="email"] {
+  margin-bottom: 5px;
+}
+
+input[type="submit"] {
+  display: block;
+}
+
+
+input {
+  border-color: rgba(249, 204, 224, .8);
+}
+
+#message{
+  height: 100px;
+  width: 200px;
+
+}
+
+.messageright{
+  float:left;
+  position:relative;
+margin-left: 40px;
+text-align: left;
+}
+
+textarea{
+  border:2px solid;
+  border-color: rgba(249, 204, 224, .8);
 }

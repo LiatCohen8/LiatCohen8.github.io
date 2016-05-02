@@ -59,7 +59,8 @@
     text-decoration: underline;
     text-transform: uppercase;
     font-weight: lighter;
-    margin-left: 120px;
+    margin-left: -25px;
+    padding-bottom: 50px;
   }
 
   .return:visited{
@@ -103,31 +104,21 @@
     display: block;
   }
 
-  label{
-    padding-right: 0px;
-    text-transform: uppercase;
-    font-weight: lighter;
-    font-size: 10px;
-
-  }
-
   button{
     font-size: 8px;
     font-family: "Source Sans Pro",sans-serif;
     font-weight:lighter;
     text-transform: uppercase;
+    border-color: rgba(249, 204, 224, 1);
+    background-color:white;
   }
 
   button:hover{
-    background-color:rgba(249, 204, 224, 1);
+    background-color:rgba(249, 204, 224, .5);
   }
 
   button:active{
     background-color:rgba(249, 204, 224, 1);
-  }
-
-  input{
-    padding-right: 30px;
   }
 
   .messageinput{
@@ -174,5 +165,43 @@
     margin-top: 20px;
     margin-left: 15px;
   }
+
+  label {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    margin-bottom: 0px;
+  }
+
+  input[type="submit"] {
+    display: block;
+  }
+
+  input {
+    border-color: rgba(249, 204, 224, .8);
+  }
+
+  #message{
+    height: 40px;
+    width: 160px;
+    margin-top: -1px;
+  }
+
+  textarea{
+    border:2px solid;
+    border-color: rgba(249, 204, 224, .8);
+  }
+
+  form{
+    margin-top: -25px;
+  }
+
+.left{
+  margin-top: -15px;
+}
 
 }
