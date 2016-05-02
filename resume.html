@@ -4,43 +4,54 @@
 <head>
   <link href="css/style.css" rel="stylesheet" media="screen"/>
   <link href="css/print.css" rel="stylesheet" media="print"/>
+  <link href="css/mobile.css" rel="stylesheet"
+  media="screen" />
+  <meta name="viewport" content="width=device-width;
+initial-scale=1;" />
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700italic,900italic,900,700' rel='stylesheet' type='text/css'>
   <meta charset="UTF-8"/>
-  <title>Liat Cohen's Resume</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="img/logo-title2.png">
+  <title>Resumé | Liat Cohen</title>
 </head>
 
 
 <body>
-<div id="wrapper">
-<header id="back-to-top">
-  <h1>Liat Cohen</h1>
-<address id="address" class="normal">
-<p>400 Biscayne Drive,
-San Rafael, CA 94901</p>
-<p>(415) 233-0827</p>
-<p>l.cohen8@miami.edu</p>
-<p class="linkedin"><a href="https://www.linkedin.com/in/liatcohen1">LinkedIn Profile</a></p>
-<p class="hide">linkedin.com/in/liatcohen1</p>
-</address>
+
+    <nav class="nav">
+      <div id="center">
+          <ul>
+            <li class="topnav"><a href="index.html">Home</a></li>
+            <li class="topnav"><a href="portfolio.html">Portfolio</a></li>
+            <li class="topnav"><a href="about.html">About</a></li>
+            <li class="topnav"><a href="resume.html">Resumé</a></li>
+            <li class="topnav"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div id="wrapper">
+
+<header id="back-to-top" class="center"><img src="img/logo-top.jpg" alt="logo" class="hide-print-only"/>
+    <h1 class="hide">Liat Cohen</h1>
+  <address id="address" class="normal">
+  <p>400 Biscayne Drive,
+  San Rafael, CA 94901</p>
+  <p>(415) 233-0827</p>
+  <p>l.cohen8@miami.edu</p>
+  <p class="hide">liatmcohen.com</p>
+  </address>
+<a class="download" href="pdf/liatcohen-resume.pdf"><i class="fa fa-download" aria-hidden="true"></i> Resume PDF</a>
 </header>
 
-<nav>
-  <ul id="horizontal">
-<li class="caps"><a href="#education">Education</a></li>
-<li class="caps"><a href="#relevant-experience">Relevant Experience</a></li>
-<li class="caps"><a href="#other-experience-and-activities">Other Experience and Activities</a></li>
-<li class="caps"><a href="#skills">Skills</a></li>
-  </ul>
-</nav>
-
-<main>
-
+<main id="resume">
+<div id="resumeright">
 <section>
   <h2 id="education">Education</h2>
 <article>
   <h3>University of Miami- Coral Gables, FL</h3>
   <h4>Bachelor of Science in Communication in Media Management</h4>
   <h5>May 2018</h5>
+<div id="left">
   <p class="colon"><strong>Minors</strong></p>
 <ul class="minorshonors">
   <li  class="inline">Public Relations</li>
@@ -64,13 +75,14 @@ San Rafael, CA 94901</p>
    <li  class="inline">Media Research and Analysis</li>
    <li  class="inline">Writing for the Digital Age  (65 credit hours)</li>
 </ul>
+ </div>
 </article>
 </section>
 
 <section>
   <h2 id="relevant-experience">Relevant Experience</h2>
 <article>
-  <h3>Student Government- Executive Board, University of Miami</h3>
+  <h3>Student Government- <span class="lighter">Executive Board, University of Miami</span></h3>
   <h4>Executive Secretary</h4>
   <h5>March 2015-Present</h5>
 <ul class="experiencestyle">
@@ -80,7 +92,7 @@ San Rafael, CA 94901</p>
 </article>
 
 <article>
-  <h3>Delta Phi Epsilon- Social Sorority, University of Miami</h3>
+  <h3>Delta Phi Epsilon- <span class="lighter">Social Sorority, University of Miami</span></h3>
   <h4>Coordinator of Special Events</h4>
   <h5>December 2015-Present</h5>
   <ul class="experiencestyle">
@@ -93,14 +105,14 @@ overnight Formal, supervise every event</li>
   <h4>Social Media Coordinator</h4>
   <h5 class="smdate">June 2015-Present</h5>
   <ul class="experiencestyle">
-  <li class="linkedin">Make daily updates and postings on all social media platforms: Facebook, Instagram, Twitter, Snapchat, and
-Tumblr (please view <a href="http://dphiemiami.tumblr.com">DPhiE Tumblr</a>)</li>
+  <li>Make daily updates and postings on all social media platforms: Facebook, Instagram, Twitter, Snapchat, and
+Tumblr (please view <a class="linkedin" href="http://dphiemiami.tumblr.com">DPhiE Tumblr</a>)</li>
   <li>Designed original Snapchat filter, gained over 1, 000 new Instagram followers since beginning of term</li>
   </ul>
 </article>
 
 <article>
-  <h3>Canes Night Live- Programming Board, University of Miami</h3>
+  <h3>Canes Night Live- <span class="lighter">Programming Board, University of Miami</span></h3>
   <h4>Freshman Liaison, Sophomore Liaison</h4>
   <h5>August 2014-Present</h5>
 <ul class="experiencestyle">
@@ -110,7 +122,7 @@ Tumblr (please view <a href="http://dphiemiami.tumblr.com">DPhiE Tumblr</a>)</li
 </article>
 
 <article>
-  <h3>MDT Agency- Talent Agency and Representation, San Francisco, CA</h3>
+  <h3>MDT Agency- <span class="lighter">Talent Agency and Representation, San Francisco, CA</span></h3>
   <h4>Student Intern</h4>
   <h5>May 2015-August 2015</h5>
   <ul class="experiencestyle">
@@ -120,7 +132,7 @@ Tumblr (please view <a href="http://dphiemiami.tumblr.com">DPhiE Tumblr</a>)</li
 </article>
 
 <article>
-  <h3>Cane Records- Student-run Record Label, University of Miami</h3>
+  <h3>Cane Records- <span class="lighter">Student-run Record Label, University of Miami</span></h3>
   <h4>Artist and Repertoire Representative</h4>
   <h5>August 2014-May 2015</h5>
   <ul class="experiencestyle">
@@ -129,19 +141,29 @@ Tumblr (please view <a href="http://dphiemiami.tumblr.com">DPhiE Tumblr</a>)</li
   </ul>
 </article>
 </section>
+</div>
 
+<div id="resumeleft">
 <section>
-    <h2 id="other-experience-and-activities">Other Experience and Activities</h2>
-<div class="activitiesup">
-  <article>
+    <h2 id="other-experience-and-activities">Activities</h2>
+
+  <article class="activitiesup">
     <p class="italic"><strong class="comma">Toppel Career Center</strong> Advisory Board Member</p>
-    <p class="italic"><strong class="comma">Delta Phi Epsilon Sorority</strong> Omega Chapter Member</p>
+    <p class="italic"><strong class="comma">Delta Phi Epsilon</strong> Omega Chapter Member</p>
     <p class="italic"><strong class="comma">Grammy U</strong> Florida Chapter Member</p>
     <p class="italic"><strong class="comma">Nordstrom</strong> Sales Associate</p>
     <p class="italic"><strong class="comma">The Big Picture</strong> Intern</p>
     <p class="italic"><strong class="comma">Novato High School</strong> Senior Class President</p>
   </article>
-</div>
+</section>
+
+<section class="hide-print-only">
+    <h2>Profiles</h2>
+  <article class="skillsup">
+    <p class="italic"><strong class="comma">LinkedIn</strong><a class="linkedin" href="https://www.linkedin.com/in/liatcohen1">Linkedin.com/in/liatcohen1</a></p>
+    <p class="italic"><strong class="comma">Instagram</strong><a class="linkedin" href="https://www.instagram.com/liatcohen_portfolio/">Instagram.com/liatcohen_portfolio</a></p>
+    <p class="italic"><strong class="comma">Pinterest</strong><a class="linkedin" href="https://www.pinterest.com/liatcohen/">Pinterest.com/liatcohen</a></p>
+  </article>
 </section>
 
 <section>
@@ -171,8 +193,8 @@ Tumblr (please view <a href="http://dphiemiami.tumblr.com">DPhiE Tumblr</a>)</li
     <ul class="liststyle">
       <li>Adobe CC Photoshop</li>
       <li>InDesign</li>
-      <li class="linkedin">Illustrator
-      (visit <a href="https://www.instagram.com/liatcohen_portfolio/">Instagram Portfolio</a>)</li>
+      <li>Illustrator</li>
+      <li>(visit <a class="linkedin" href="https://www.instagram.com/liatcohen_portfolio/">Instagram Portfolio</a>)</li>
     </ul>
   </li>
     <li><strong>Coding</strong>
@@ -194,20 +216,25 @@ Tumblr (please view <a href="http://dphiemiami.tumblr.com">DPhiE Tumblr</a>)</li
   </li>
   </ul>
   </article>
-</div>
+  </div>
 </section>
-
+</div>
 </main>
+</div>
+
 <footer>
+<div class="hide-print-only">
   <nav class="icon">
-    <a href="https://www.linkedin.com/in/liatcohen1"><img src="img/linkedin.png" alt="linkedin"/></a>
-    <a href="https://www.instagram.com/liatcohen_portfolio/"><img src="img/instagram.png" alt="instagram"/></a>
-    <a href="http://dphiemiami.tumblr.com"><img src="img/tumblr-icon.png" alt="tumblr"/></a>
-    <a href="https://www.pinterest.com/liatcohen/"><img src="img/pinterestlogocopy.png" alt="pinterest"/></a>
+      <a href="mailto:l.cohen8@miami.edu?subject='Hello!'"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+      <a href="https://www.pinterest.com/liatcohen/"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/liatcohen1"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+      <a href="http://dphiemiami.tumblr.com"><i class="fa fa-tumblr fa-2x" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/liatcohen_portfolio/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
   </nav>
   <nav class="backtotop">
-    <a href="#back-to-top">Back to Top</a>
+      <a href="#nav">Back to Top</a>
   </nav>
+</div>
   <div class="hide">
   <p>linkedin.com/in/liatcohen1</p>
   <p>instagram.com/liatcohen_portfolio</p>
@@ -215,6 +242,6 @@ Tumblr (please view <a href="http://dphiemiami.tumblr.com">DPhiE Tumblr</a>)</li
   <p>pinterest.com/liatcohen</p>
   </div>
 </footer>
-</div>
+
 </body>
 </html>
